@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     hideLoadingTimeout = setTimeout(() => {
         hideLoading();
         document.body
-    }, 3000);
+    }, 1000);
 
     //for 2 pages html
     if (page === 'login') {
