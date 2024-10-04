@@ -1,15 +1,10 @@
 {
-  "name": "gcash-banking-tailwind", 
+  "name": "gcash-banking-tailwind",
   "version": "1.0.0",
-  "description": "A project using Tailwind CSS for styling.",
-  "main": "index.html",
   "scripts": {
     "build": "npx tailwindcss -i ./styles.css -o ./dist/output.css --watch"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.13" 
-  },
-  "keywords": [],
-  "author": "jb", 
-  "license": "ISC"
+    "tailwindcss": "^3.4.13"
+  }
 }
