@@ -1,0 +1,87 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Gotham Rounded', sans-serif;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: #007dfe;
+       
+    }
+    h2 {
+        letter-spacing: 1px;
+    }
+    .logo {
+        width: 35vh;
+        height: 19vh;
+        margin-left: -20px; 
+    }
+    .loading-circle {
+        border: 6px solid rgba(0, 0, 0, 0.01);
+        border-top: 6px solid white;
+        border-left: 6px solid white;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    
+        animation: spin 0.9s linear infinite;
+    }
+    @keyframes spin {
+        0% {
+        transform: rotate(0deg);
+        }
+        100% {
+        transform: rotate(360deg);
+        }
+    }
+
+    /*main.html*/
+    .logo1 {
+        width: 20vh;
+        height: 10vh;
+        margin-left: -20px; 
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    h3 {
+        position: relative;
+        right: 3vh;
+   
+    }
+    
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        border-top-color: rgba(255, 255, 255, 0.177);
+    }
+    
+    
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .logo {
+            width: 32vh;
+            height: 17vh;
+        }
+    
+        .logo1 {
+            width: 22vh;
+            height: 12vh;
+        }
+    }
+    
+    /* Large devices (desktops, 1024px and up) */
+    @media (min-width: 1024px) {
+        .logo {
+            width: 35vh;
+            height: 19vh;
+        }
+    
+        .logo1 {
+            width: 25vh;
+            height: 13vh;
+        }
+    }
