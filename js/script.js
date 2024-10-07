@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //index.html
 function indexFunction() {
     setTimeout(function() {
-        window.location.href = "../login.html";
+        window.location.href = "login.html";
     }, 2000);
 }
 
